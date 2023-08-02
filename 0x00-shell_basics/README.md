@@ -1,7 +1,0 @@
-#!/bin/bash
-echo "Hello, World!"
-#!/bin/bash
-file_count=$(ls | wc -l)
-echo "The number of files in the current directory is: $file_count"
-
-
