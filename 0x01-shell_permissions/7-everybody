@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u+x hello && chmod g+x hello && chmod o+x hello
+printf '%s\n' "chmod u+x hello" "chmod g+x hello" "chmod o+x hello"
