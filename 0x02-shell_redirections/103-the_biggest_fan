@@ -1,2 +1,2 @@
 #!/bin/bash
-awk -F '\t' '{a[$1]++}END{for(k in a)print a[k],k}' "$@" | sort -rnk1,1 | head -n11
+tail -n +2  |cut-f | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev | cut -d ' ' -f -1 | rev
