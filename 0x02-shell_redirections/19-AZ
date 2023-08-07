@@ -1,2 +1,2 @@
 #!/bin/bash
-read -p "Enter input: " input; output="${input//A/Z}"; output="${output//c/e}"; echo "Output: $output"
+grep -i '^[a-z]' /etc/ssh/sshd_config
