@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty -exec sh -c 'printf "%s\n" "$(basename "$1")"' sh {} \; ; find . -type d -empty -exec sh -c 'printf "%s\n" "$(basename "$1")"' sh {} \;
+find . -empty | cut | rev | cut -d '/' -f | rev
