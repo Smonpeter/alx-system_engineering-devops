@@ -1,2 +1,2 @@
 #!/bin/bash
-decoded_message=""; while read -r line; do decoded_message+="${line:0:1}"; done < "${1:-/dev/stdin}"; echo -e "$decoded_message"
+cut -c 1 | paste -s d"
