@@ -1,2 +1,2 @@
 #!/bin/bash
-./0-hello_world
+chmod +x 0-hello_world
